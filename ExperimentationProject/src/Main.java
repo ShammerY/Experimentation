@@ -30,6 +30,9 @@ public class Main {
                 case "3":
                     print(printEvents());
                     break;
+                case "4":
+                    print("Print Assistants");
+                    break;
                 case "0":
                     print("See you next time");
                     break;
