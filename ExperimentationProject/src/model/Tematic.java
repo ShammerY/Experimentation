@@ -3,10 +3,11 @@ package model;
 public enum Tematic {
     ELECTRONIC,
     MATHEMATICS,
-    SCIEnCE,
+    SCIENCE,
     NATURE,
     ENTERTAINMENT,
     SOCIOLOGY,
-    HISTORY
+    HISTORY,
+    NONE
 
 }
