@@ -1,15 +1,15 @@
 package model;
 
 public class Event {
-    private Integer id;
+    private String id;
     private String title;
     private Tematic tematic;
-    public Event(Integer newId,String newTitle,Tematic newTematic){
+    public Event(String newId,String newTitle,Tematic newTematic){
         id = newId;
         title = newTitle;
         tematic = newTematic;
     }
-    public void setId(Integer newId){
+    public void setId(String newId){
         id = newId;
     }
     public void setTitle(String newTitle){
@@ -21,7 +21,7 @@ public class Event {
     public String getTitle(){
         return title;
     }
-    public Integer getId(){
+    public String getId(){
         return id;
     }
     public Tematic getTematic(){
